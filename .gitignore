@@ -1,0 +1,28 @@
+# Only the explicitly listed build sources and documentation are published.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/build.bat
+!/tools/
+!/docs/
+/tools/*
+!/tools/build_scroll.py
+!/tools/z80_assembler.py
+/docs/*
+!/docs/IMPLEMENTACAO.md
+
+# Original and generated game material stays local.
+*.rom
+*.ROM
+*.bin
+*.zip
+*.7z
+*.ips
+*.bps
+__pycache__/
+*.pyc
+/build/
+/out/
+/emul/
+/TimePilot-disassembly*/
