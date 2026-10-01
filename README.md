@@ -50,7 +50,7 @@ The generated ROM is 32,768 bytes, uses **Page12** mapping in openMSX, and shoul
 
 Cloud images for all 64 fine-scroll positions are calculated at build time from the user's ROM. During gameplay, two pattern groups alternate between preparing the graphics and displaying the clouds. Half-pixel accumulators distribute the steps for intermediate headings, avoiding the coarse staircase motion of the previous version.
 
-See the [implementation notes](docs/IMPLEMENTACAO.md) (in Portuguese).
+See the [step-by-step implementation guide](docs/IMPLEMENTACAO.md) (in Portuguese), covering the original scrolling, precomputed patterns, edge cleanup, double buffering, fractional movement, memory layout, and validation.
 
 ### Reference and attribution
 
@@ -108,7 +108,7 @@ A ROM gerada tem 32.768 bytes, usa o mapeamento **Page12** no openMSX e deve apr
 
 As imagens das nuvens nas 64 posições finas são calculadas durante a build a partir da ROM do usuário. Durante o jogo, dois grupos de padrões alternam a preparação dos gráficos e a apresentação das nuvens. Acumuladores de meio pixel distribuem os passos dos rumos intermediários, evitando a trajetória em blocos da versão anterior.
 
-Veja [como a modificação foi implementada](docs/IMPLEMENTACAO.md).
+Veja o [guia passo a passo da implementação](docs/IMPLEMENTACAO.md): desenho original, fases pré-calculadas, limpeza de bordas, buffer duplo, movimento fracionário, mapa de memória e validação.
 
 ### Referência e atribuição
 
